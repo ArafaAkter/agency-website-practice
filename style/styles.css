@@ -171,18 +171,41 @@
     padding-bottom: 20px;
     
 }
+
 /* footer section */
-.footer{
+.footer-section{
     display: flex;
     justify-content: center;
     gap: 100px;
-    background-color: black;
     color: white;
     padding: 10%;
     list-style: none;
 
 }
-.footer-heading{
+.img-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 30px;   
     margin-bottom: 30px;
+    
 }
+.footer-heading{
+    margin-top: 10px;   
+    margin-bottom: 10px;
+}
+.agency-paragraph{
+    margin-top: 10px;   
+    margin-bottom: 10px;
+
+}
+ 
+ footer{
+    background-color: black;
+ }
+ .paragraph{
+    color:white;
+    text-align: center;
+    margin-top: 30px;   
+    padding: 5%;
+ }
