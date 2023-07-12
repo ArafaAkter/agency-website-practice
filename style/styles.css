@@ -138,8 +138,36 @@
 
 }
 /* blog container */
-.blog-title{
+.title{
     color: black;
     text-align: center;
     margin: 50px;
+}
+ .blog-title{
+    color: gray;
+    text-align: center;
+    margin-top: 5px;
+} 
+.card{
+   width: 220px;
+   height: 350px;
+   box-shadow: 4px 8px 4px gray;
+   border-radius: 5px;
+   /* background-color: blue;  */
+}
+.blog-img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card-title{
+    margin-top: 10px;   
+    margin-bottom: 10px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
 }
